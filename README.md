@@ -132,6 +132,8 @@ design-space exploration, Brevitas QAT, QONNX export, in-graph pre/
 post-processing (hardware normalization + Top-K argmax via `InsertTopK`),
 FINN+ dataflow build, and on-board evaluation.
 
+**Note:** This task was carried out as part of a final competition in which the goal was to maximize a (Throughput x Accuracy) Figure-of-Merit (FoM), while ensuring Accuracy is above 80%. The model parameters were chosen with that in mind.  
+
 **Model:** 3 conv layers (12/24/36 channels), 12×12 input, 2-bit weights /
 3-bit activations, power-of-two quantization — chosen from a 16-way
 design-space sweep over image size, channel width, and bit-width (see
