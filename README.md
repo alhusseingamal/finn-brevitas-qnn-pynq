@@ -9,8 +9,6 @@ on FPGA hardware: quantization-aware training with Brevitas, hand-written HDL
 neuron implementations, FINN-based dataflow accelerator generation and folding
 optimization, and end-to-end deployment/evaluation on a PYNQ-Z2 board.
 
-> Instructors: Vincent Meyers, Johannes Reibold
-
 ---
 
 ## Tech Stack
